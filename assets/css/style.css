@@ -1,0 +1,488 @@
+
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+*{
+	margin:0;
+	padding: 0;
+	box-shadow: border-box;
+}
+/*----- Navbar Start-----*/
+.navbar{
+
+}
+.navbar .navbar-brand{
+	width: 150px;
+}
+.navbar .nav-item .nav-link{
+	margin-left: 15px;
+}
+.navbar .nav-item .nav-link:hover{
+	color: orange;
+	transition: .6;
+}
+#signinBtn{
+	border:1px solid orange;
+	background-color: orange;
+	color: white;
+	padding-left: 12px;
+	padding-right:12px;
+	border-radius: 5px;
+}
+#signinBtn:hover{
+	color: orange;
+	background-color: transparent;
+	transition: .6;
+}
+.navbar .dropdown:hover .dropdown-menu{
+	display: block!important;
+}
+.navbar .dropdown .dropdown-menu{
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 0; 
+}
+.navbar .dropdown .dropdown-menu .dropdown-item{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.navbar .dropdown .dropdown-menu .dropdown-item:hover{
+	background-color: orange;
+	color: white;
+	transition: .6s; 
+}
+.navbar form input:focus{
+	border:none!important;
+	outline: none!important;
+}
+/*----- Navbar End-----*/
+
+
+
+/*----- Sidebar Start-----*/
+
+.sidebar{
+	border:1px solid  #F5F3F2;
+	padding: 20px 20px;
+}
+.sidebar h6{
+	border-bottom: 1px solid #DFA275;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+
+}
+.sidebar .form-check label{
+	font-size: 16px;
+}
+
+/*----- Sidebar End-----*/
+/*--slider Start---*/
+.slider-area .carousel-inner{
+	width: 100%;
+	height:60vh;
+}
+.slider-area .carousel-inner .carousel-item{
+	width: 100%;
+	height: 100%;
+}
+.slider-area .carousel-inner .carousel-item img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.carousel-indicators button{
+	width: 17px!important;
+	height: 17px!important;
+	border-radius: 50%;
+}
+.carousel-indicators button.active{
+	background-color: orange
+}
+/*--slider End---*/
+/*----main-contant Start-----*/
+.main-content .card img{
+	width: 180px;
+	height: 180px;
+	margin: auto;
+	object-fit: contain;
+}
+.main-content .card{
+	padding: 0!important;
+	overflow: hidden;
+	border-color: #F5F3F2;
+	border-radius: 0;
+	margin-bottom: 5px;
+}
+.main-content .card:hover{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	transition: .6s;
+}
+.main-content .card:hover img{
+	transform: scale(1.1);
+	transition: .6s;
+}
+.main-content .card .card-title a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.card-body .buy {
+	text-decoration: none!important;
+	border:1px solid orange;
+	background-color:orange ;
+	color: white;
+	font-size: 18px;
+	padding: 7px 7px;
+	border-radius: 9px;
+}
+.card-body .ratting{
+
+	color: orange;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.main-content .card .card-body a:hover{
+	background-color: transparent;
+	border-color: orange;
+	color:orange;
+	transition: .6s;
+}
+/*----main-contant End-----*/
+/*----pagination Start----*/
+
+.pagination .page-item .page-link{
+	color:black;
+	
+}
+.pagination .page-item .page-link:hover{
+	background-color: orange;
+	border-color: orange;
+	color:white;
+	transition: .6s;
+}
+.pagination .page-item .page-link.active{
+	background-color: orange;
+	color: white;
+	border-color: orange;
+}
+/*----pagination End----*/
+
+/*----Testimonial Start----*/
+
+.testimonial-area .t-box{
+	padding: 20px 15px;
+	border:1px solid #FEDCA7;
+	border-radius: 5px;
+	margin-left: 15px;
+}
+.testimonial-area .t-box h4{
+	margin: 0;
+	padding: 0
+}
+.testimonial-area .t-box i{
+	font-size: 15px;
+	color: orange;
+}
+.testimonial-area .t-box .photo{
+height: 130px;
+width: 130px;
+border:2px solid orange;
+border-radius: 50%;
+position: relative;
+}
+.testimonial-area .t-box .photo img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.testimonial-area .t-box .rating i{
+	font-size: 14px;
+	color: orange;
+}
+.testimonial-area .t-box hr{
+	border-color: #FEDCA7;
+}
+.testimonial-area .t-box p{
+	text-align: justify;
+}
+/*----Testimonial End----*/
+
+/*--------Breadcrumb Start----------*/
+.breadcrumb-area{
+	width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slider2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.breadcrumb-ct{
+	width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slider4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.breadcrumb-f{
+		width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slide-f.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.breadcrumb-ff{
+		width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slide-fi.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.breadcrumb-fr{
+		width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slide-fr.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.breadcrumb-c{
+		width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slide-c.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.breadcrumb-v{
+		width: 100%;
+	height: 40vh;
+	position: relative;
+	background-image: url('../../assets/images/slider/slide-v.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	background-color:#0C0C0C;
+	opacity:.4;
+}
+.breadcrumb .breadcrumb-item a{
+	color:orange;
+}
+.breadcrumb .breadcrumb-item.active{
+	color: white;
+}
+.breadcrumb i{
+	color: orange;
+	font-size:14px;
+	padding: 2px;
+	margin-top: 0px 8px;
+}
+/*--------Breadcrumb End------*/
+
+/*--sigin start--*/
+.login{
+	background-color: orange ;
+	color:white;
+}
+
+.card form{
+	padding: 20px 25px 20px 20px;
+}
+#loginBtn{
+	background-color:orange;
+	color:white;
+	border:none;
+	width: 100%;
+	height: 35px;
+	margin-bottom: 10px;
+margin-top: 10px;
+}
+#checkbox{
+	width: auto;
+	height: auto;
+}
+/*--sigin end--*/
+
+/*----Footer Start----*/
+footer{
+	background-color: #272625;
+	padding:25px 25px;
+}
+footer .f-title{
+	margin-bottom: 20px;
+}
+footer .f-title h5{
+	color: white;
+}
+footer span{
+	color: white;
+}
+footer ul li{
+	color: white;
+	line-height: 32px;
+}
+footer ul{
+	margin: 0;
+	padding: 0;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #AEAEAE;
+}
+footer .social-link .icon{
+	width:25px; 
+	height:25px;
+	
+	position: relative;
+}
+footer .social-link .icon i{
+	color:white;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+
+}
+#facebook{
+	background-color:#316FF6;
+}
+#linkedin{
+	background-color:#316FF6;
+}
+#instagram{
+	background-color:#F87108;
+}
+#whatsapp{
+	background-color:#36D906;
+}
+footer .copyright{
+	border-top: 1px solid #5D5D5D;
+	padding-top: 15px;
+}
+footer .logo{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	position: relative;
+}
+footer .logo img{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width:80%;
+	height: 60%;
+}
+/*----Footer end----*/
+
+/*---slick start----*/
+.slick-prev::before{
+	color:orange!important;
+}
+.slick-next::before{
+	color: orange!important;
+}
+/*---slick end----*
+
+/*---contact form start----*/
+.contact-form form input{
+padding: 12px 12px 12px 12px;
+border-radius: 0px;
+}
+.contact-form form textarea{
+
+border-radius: 0px;
+}
+/*---contact form End----*/
+
+.g-map{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.g-map iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.offcanvas-body .product-photo{
+		width: 90px;
+	height: 90px;
+	border:1px solid orange;
+	position: relative;
+	padding: 10px 10px;
+}
+
+.offcanvas-body .product-photo img{
+	width: 90%;
+	height: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	object-fit: cover;
+
+}
+.offcanvas-body a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+.offcanvas-body a:hover{
+	text-decoration: underline;
+	color: orange;
+	transition: .7s;
+}
+.offcanvas-body button{
+	background-color: transparent;
+	border:none;
+
+}
+.offcanvas-body button:hover{
+	color: orange;
+	transition: .6s;
+}
+.offcanvas-body .btn-area a{
+	text-decoration: none;
+	color: black;
+	transition: .6s;
+}
+.offcanvas-body .btn-area a:hover{
+	color: white;
+}
+.cart-table table tr td{
+	font-size: 16px;
+}
+
+.cart-table table tr td button{
+	border:none;
+	background:transparent;
+}
+.cart-table table thead th{
+	background-color: orange;
+}
+.cart-table table tr td button:hover{
+	color: orange;
+}
