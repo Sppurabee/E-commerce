@@ -117,6 +117,7 @@ html,body{
 	border-color: #F5F3F2;
 	border-radius: 0;
 	margin-bottom: 5px;
+	
 }
 .main-content .card:hover{
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -151,6 +152,10 @@ html,body{
 	border-color: orange;
 	color:orange;
 	transition: .6s;
+}
+.main-content .card{
+	display:fixd;
+	height: 360px;
 }
 /*----main-contant End-----*/
 /*----pagination Start----*/
